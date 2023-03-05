@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" href="img/Logo Unsri.png" type="image/x-icon" />
+    <title>Apartemen | Badan Pengelola Usaha Universitas Sriwijaya</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand page-scroll" href="#">
+          <img src="img/logo unsri.svg" alt="" width="225" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pengumuman.html">Pengumuman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="layanan.html">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="akun.html">Akun</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#logout"
+                data-bs-toggle="modal"
+                data-bs-target="#logout"
+                >Logout</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Header -->
+    <section class="text-white text-center layanan-aset" id="header">
+      <img src="img/bg.png" class="card-img rounded-0" alt="..." height="275" />
+      <div class="card-img-overlay mx-auto">
+        <h1 class="card-title">PEMESANAN KAMAR ASRAMA</h1>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Pemesanan -->
+    <section class="container container-sm mt-5" id="aset-asrama">
+      <div class="card mb-3 px-1">
+        <div class="row g-0">
+          <div class="col-md-4 border-end border-2">
+            <div class="card-body pe-0">
+              <h5 class="card-title">Informasi Pemesan</h5>
+              <div class="d-flex align-items-center mb-2">
+                <div class="me-2 mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <small class="text-muted">Nama Lengkap</small>
+                  <p class="card-text lh-1">Bambang Pamungkas</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="me-2 mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-fingerprint"
+                    viewBox="0 0 17 17"
+                  >
+                    <path
+                      d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z"
+                    />
+                    <path
+                      d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332c0 .409-.022.816-.066 1.221A.5.5 0 0 1 6 8.447c.04-.37.06-.742.06-1.115V7Zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8Zm-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329Z"
+                    />
+                    <path
+                      d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334Zm.3 1.67a.5.5 0 0 1 .449.546 10.72 10.72 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.72 9.72 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z"
+                    />
+                    <path
+                      d="M3.902 4.222a4.996 4.996 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 3.996 3.996 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556Zm6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705ZM3.68 5.842a.5.5 0 0 1 .422.568c-.029.192-.044.39-.044.59 0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.531 6.531 0 0 0 3.058 7c0-.25.019-.496.054-.736a.5.5 0 0 1 .568-.422Zm8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.51 10.51 0 0 0 .584-2.678.5.5 0 0 1 .54-.456Z"
+                    />
+                    <path
+                      d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865Zm-.89 1.257a.5.5 0 0 1 .04.706A5.478 5.478 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346Zm12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <small class="text-muted">NIM</small>
+                  <p class="card-text lh-1">09031281924160</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="me-2 mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 19 19"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <small class="text-muted">No. Hp</small>
+                  <p class="card-text lh-1">087894614101</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="me-2 mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 18 18"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <small class="text-muted">Email</small>
+                  <p class="card-text lh-1">bambangpamungkas@gmail.com</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="me-2 mt-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-gender-ambiguous"
+                    viewBox="0 0 17 17"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.5 1a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-3.45 3.45A4 4 0 0 1 8.5 10.97V13H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V14H6a.5.5 0 0 1 0-1h1.5v-2.03a4 4 0 1 1 3.471-6.648L14.293 1H11.5zm-.997 4.346a3 3 0 1 0-5.006 3.309 3 3 0 0 0 5.006-3.31z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <small class="text-muted">Jenis Kelamin</small>
+                  <p class="card-text lh-1">Laki-laki</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="d-flex justify-content-between flex-wrap">
+                <div>
+                  <h5 class="card-title text-spacing">Apartemen Mahasiswa</h5>
+                  <p class="card-text text-spacing">
+                    <a
+                      href="https://www.google.co.id/maps/place/Apartemen+A+Unsri/@-3.2217254,104.6552771,17z/data=!3m1!4b1!4m5!3m4!1s0x2e3bbdf8153cca2b:0x601ff9e798f35fc!8m2!3d-3.2217278!4d104.6574712"
+                      target="_blank"
+                      class="text-decoration-none"
+                    >
+                      <i class="bi bi-geo-alt-fill"></i> Apartemen Unsri,
+                      Indralaya
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <div
+                    class="card-text text-muted d-flex flex-sm-row-reverse text-spacing"
+                  >
+                    <small><i class="bi bi-info-circle-fill"></i></small>
+                    <small class="px-1"
+                      >Diprioritaskan Mahasiswa Baru 2022/2023</small
+                    >
+                  </div>
+                  <div class="card-text d-flex flex-sm-row-reverse">
+                    <i class="bi bi-people-fill"></i>
+                    <p class="px-1 text-spacing">2 Mahasiswa / Kamar</p>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-between">
+                <div class="aset-detail">
+                  <h6 class="card-title">Fasilitas</h6>
+                  <div class="d-flex flex-wrap pb-1">
+                    <div class="me-5">
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Tempat Tidur</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Meja Belajar</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Kursi</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Lemari Pakaian</p>
+                      </div>
+                    </div>
+                    <div class="">
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Kamar Mandi</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Ruang Lobby Bersama</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Tempat Jemuran Bersama</p>
+                      </div>
+                      <div class="card-text d-flex align-items-baseline">
+                        <i class="bi bi-check2-circle"></i>
+                        <p class="px-1">Parkir Kendaraan Roda Dua</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="#informasi-penting"
+                    class="text-decoration-none page-scroll"
+                    ><i class="bi bi-exclamation-circle-fill"></i> Informasi
+                    Penting</a
+                  >
+                </div>
+                <div
+                  class="d-flex flex-column aset-price text-end justify-content-between"
+                >
+                  <p class="card-text text-success text-nowrap">
+                    100+ Kamar Tersedia <i class="bi bi-pin-angle-fill"></i>
+                  </p>
+                  <p class="card-text text-warning fw-bold">
+                    Rp 300.000,-<br />
+                    <small class="text-dark fw-normal"
+                      >/ Mahasiswa / Bulan</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 d-flex flex-row-reverse">
+          <div class="col-md-8">
+            <div class="card asrama-img">
+              <h6 class="card-body">Sketsa Lokasi Kamar</h6>
+              <img
+                src="img/apartemen.svg"
+                class="img-fluid px-3 pb-4"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-4 border-end border-2">
+            <div class="card-body">
+              <h5 class="card-title">Pilih Kamar</h5>
+              <div class="mt-3">
+                <label class="form-label">Jenis Apartemen</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text"
+                    ><i class="bi bi-building"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-describedby="inputGroupPrepend"
+                    value="Apartemen Putra"
+                    title="Jenis Apartemen"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="mt-3">
+                <label for="pilihLantai" class="form-label">Pilih Lantai</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text"
+                    ><i class="bi bi-layers"></i
+                  ></span>
+                  <select
+                    class="form-select"
+                    id="pilihLantai"
+                    required
+                    title="Pilih Lantai"
+                  >
+                    <option value="lantai1" selected>Lantai 1</option>
+                    <option value="lantai2">Lantai 2</option>
+                    <option value="lantai3">Lantai 3</option>
+                    <option value="lantai4">Lantai 4</option>
+                    <option value="lantai5">Lantai 5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mt-3">
+                <label for="pilihKamar" class="form-label">Pilih Kamar</label>
+                <div
+                  class="input-group has-validation"
+                  data-bs-toggle="popover"
+                  data-bs-trigger="focus"
+                  data-bs-content="Klik Kamar yang Tersedia di Sketsa Lokasi Kamar"
+                >
+                  <span class="input-group-text"
+                    ><i class="bi bi-columns-gap"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body"
+                    id="pilihKamar"
+                    aria-describedby="inputGroupPrepend"
+                    required
+                    value="Kamar 13"
+                    title="Klik Kamar yang Tersedia di Sketsa Lokasi Kamar"
+                    readonly
+                  />
+                </div>
+              </div>
+              <div class="mt-3">
+                <label for="durasiSewa" class="form-label"
+                  >Pilih Durasi Sewa</label
+                >
+                <div class="input-group has-validation">
+                  <span class="input-group-text"
+                    ><i class="bi bi-calendar2-check"></i
+                  ></span>
+                  <select
+                    class="form-select"
+                    id="durasiSewa"
+                    required
+                    title="Pilih Durasi Sewa"
+                  >
+                    <option value="6bulan" selected>6 Bulan</option>
+                    <option value="7bulan">7 Bulan</option>
+                    <option value="8bulan">8 Bulan</option>
+                    <option value="9bulan">9 Bulan</option>
+                    <option value="10bulan">10 Bulan</option>
+                    <option value="11bulan">11 Bulan</option>
+                    <option value="12bulan">12 Bulan</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mt-3">
+                <label for="totalHarga" class="form-label">Total Harga</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text"
+                    ><i class="bi bi-currency-dollar"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body"
+                    id="totalHarga"
+                    aria-describedby="inputGroupPrepend"
+                    required
+                    value="Rp 1.800.000,-"
+                    title="Total Harga"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="mt-3">
+                <label for="buktiPembayaran" class="form-label"
+                  >Bukti Pembayaran UKT Terakhir</label
+                >
+                <div class="input-group has-validation">
+                  <span class="input-group-text"
+                    ><i class="bi bi-file-earmark-arrow-up"></i
+                  ></span>
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="buktiPembayaran"
+                    aria-describedby="inputGroupPrepend"
+                    required
+                    placeholder="Upload Bukti Pembayaran UKT Terakhir"
+                    title="Upload Bukti Pembayaran UKT Terakhir"
+                  />
+                </div>
+              </div>
+              <div class="d-grid gap-2 pt-2">
+                <a
+                  href="#asetPemesanan"
+                  type="submit"
+                  class="mt-4 btn text-white modal-button btn-pilih fw-bold lh-lg rounded-pill"
+                  data-bs-toggle="modal"
+                  data-bs-target="#asetPemesanan"
+                  >PESAN KAMAR</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pemesanan -->
+
+    <div
+      class="modal fade"
+      id="asetPemesanan"
+      tabindex="-1"
+      aria-labelledby="asetPemesananLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            class="modal-header modal-header-title text-center border-0 pb-0"
+          >
+            <h5 class="modal-title" id="asetPemesananLabel">
+              Ringkasan Pemesanan
+            </h5>
+          </div>
+          <div class="modal-body mx-auto">
+            <form>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Nama Pemesan</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-person-fill"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Bambang Pamungkas"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Jenis Asrama</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-building"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Apartemen Putra"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Nomor Lantai</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-layers"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Lantai 1"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Nomor Kamar</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-columns-gap"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Kamar 13"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Harga Kamar</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-currency-dollar"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Rp 300.000,- / Orang"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Durasi Sewa</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-calendar2-check"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="6 Bulan"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label class="col-4 col-form-label text-nowrap"
+                  ><small>Total Harga</small></label
+                >
+                <div class="col-8 d-flex align-items-center">
+                  <span class=""><i class="bi bi-currency-dollar"></i></span>
+                  <input
+                    type="text"
+                    class="form-control bg-body border-0 ps-2"
+                    value="Rp 1.800.000,-"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="mt-3 text-center">
+                <p class="mb-2">Lanjutkan Pemesanan?</p>
+              </div>
+              <div class="d-grid gap-2">
+                <a
+                  href="#"
+                  class="btn text-white modal-button lh-lg btn-login"
+                  type="submit"
+                  data-bs-dismiss="modal"
+                  >Lanjut</a
+                >
+                <a
+                  href="#"
+                  class="btn text-warning"
+                  type="submit"
+                  data-bs-dismiss="modal"
+                  >Batal</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Informasi Penting -->
+    <section class="container container-sm mt-4" id="informasi-penting">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mb-3">
+            <i class="bi bi-exclamation-circle-fill"></i> Informasi Penting
+          </h5>
+          <div class="accordion mx-auto" id="accordionExample">
+            <div class="faq-item p-0 mt-2">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  CARA PEMESANAN KAMAR ASRAMA
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse mx-3 show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>
+                      Pastikan Anda telah Login terlebih dahulu dengan akun yang
+                      telah Anda buat saat registrasi.
+                    </li>
+                    <li>
+                      Pilih layanan "Pusat Penggunaan Aset (Sewa)", lalu pilih
+                      asrama yang diinginkan.
+                    </li>
+                    <li>
+                      Pilih kamar yang Anda inginkan beserta lama sewa dan
+                      upload bukti ukt terakhir/ kip-k (bidikmisi).
+                    </li>
+                    <li>
+                      Tunggu hingga proses verifikasi pemesanan kamar asrama
+                      selesai, lalu upload bukti pembayaran kamar asrama Anda.
+                    </li>
+                    <li>
+                      Tunggu hingga proses verifikasi bukti pembayaran Anda
+                      selesai, lalu unduh kartu sewa.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="faq-item p-0 mt-2">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  HAK & KEWAJIBAN PENGHUNI ASRAMA
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse mx-3"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <h6>HAK</h6>
+                  <ul>
+                    <li>
+                      Tinggal selama waktu satu tahun dan boleh diperpanjang
+                      jika memenuhi syarat yang ditentukan oleh pengelola
+                      asrama/ rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menggunakan fasilitas asrama/ rusunawa/ apartemen
+                      mahasiswa.
+                    </li>
+                    <li>Memperoleh layanan yang sama untuk semua penghuni.</li>
+                    <li>Memperoleh perlindungan keamanan.</li>
+                    <li>
+                      Berkreasi, apresiasi sesuai dengan kreatifitas
+                      masing-masing.
+                    </li>
+                    <li>
+                      Berpendapat, berorganisasi sesuai dengan minat dan
+                      aspirasi masing-masing penghuni.
+                    </li>
+                    <li>
+                      Membina diri sesuai dengan keyakinan beragama
+                      masing-masing secara bersama-sama.
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>KEWAJIBAN</h6>
+                  <ul>
+                    <li>
+                      Membayar iuran apartemen mahasiswa minimal 6 (enam) bulan
+                      di awal.
+                    </li>
+                    <li>
+                      Mahasiswa dapat memperpanjang maksimal 6 (enam bulan)
+                      berikutnya dengan membayar di awal sesuai kewajiban 1.
+                    </li>
+                    <li>
+                      Khusus untuk mahasiswa bidik misi membayar iuran asrama
+                      atau rusunawa mahasiswa 3 (tiga) bulan di awal.
+                    </li>
+                    <li>
+                      Mahasiswa bidik misi melunasi iuran asrama atau rusunawa
+                      mahasiswa setelah dana bidikmisi dibayarkan.
+                    </li>
+                    <li>
+                      Mahasiswa membayar iuran asrama/ rusunawa/ apartemen ke
+                      rekening rektor melalui Bank Sumsel Babel Nomor Rekening :
+                      1403070528 Pemilik : an. RPL 014 UNSRI Utk Penampungan
+                      Kerja Sama.
+                    </li>
+                    <li>
+                      Mentaati tata tertib, peraturan dan pedoman kehidupan di
+                      asrama/ rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menjaga keamanan asrama/ rusunawa/ apartemen mahasiswa
+                      bersama-sama dengan Pengurus.
+                    </li>
+                    <li>
+                      Menjaga ketertiban dan kenyamanan bersama dalam asrama/
+                      rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menjaga dan memelihara kebersihan dalam asrama/ rusunawa/
+                      apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menjaga dan memelihara fasilitas dan peralatan asrama/
+                      rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Mengikuti program kegiatan pembinaan yang dilakukan di
+                      asrama/ rusunawa/ apartemen mahasiswa baik rutin maupun
+                      insidental.
+                    </li>
+                    <li>
+                      Keluar dan masuk asrama/ rusunawa/ apartemen harus
+                      sepengetahuan Kepala asrama/ rusunawa/ apartemen.
+                    </li>
+                    <li>
+                      Menerima tamu di kamar tamu pada waktu yang telah
+                      ditentukan.
+                    </li>
+                    <li>
+                      Memelihara kerukunan beragama, bertoleransi, bekerjasama
+                      antar sesama penghuni.
+                    </li>
+                    <li>
+                      Mahasiswa diperbolehkan maksimal menghuni pemondokan
+                      mahasiswa 1 (satu) tahun. Apabila mahasiswa memperpanjang
+                      maka mendaftar kembali seperti semula namun tidak
+                      prioritas.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="faq-item p-0 mt-2">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  TATA TERTIB
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse mx-3"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <h6>PENGGUNAAN RUANG/ KAMAR & INVENTARIS</h6>
+                  <ul>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa wajib
+                      menjaga dan memelihara ruang/ kamar dan inventarisnya
+                      dengan baik.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa dilarang
+                      mencoret atau membuat tulisan pada ruang/ kamar dan
+                      inventaris yang disediakan oleh pengelola asrama.
+                    </li>
+                    <li>
+                      Apabila terjadi kerusakan atau kehilangan barang-barang
+                      inventaris asrama/ rusunawa/ apartemen mahasiswa yang
+                      disengaja oleh penghuni menjadi tanggung jawab penghuni
+                      untuk menggantinya.
+                    </li>
+                    <li>
+                      Penggunaan ruang lobby untuk keperluan lain harus seijin
+                      pengelola.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa dilarang
+                      membawa/ memelihara hewan peliharaan di dalam lingkungan
+                      asrama.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen Mahasiswa dilarang
+                      menjemur pakaian diluar tempat yang sudah disediakan.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa dilarang
+                      memberikan kepada orang lain untuk tinggal di dalam kamar
+                      yang bersangkutan dengan alasan apapun.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa tidak
+                      diperbolehkan memasak di lobby maupun dalam kamar.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa dilarang
+                      merokok atau minum minuman keras atau menggunakan narkoba
+                      baik didalam atau di Lingkungan asrama/ rusunawa/
+                      apartemen mahasiswa.
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>LINGKUNGAN ASRAMA, RUSUNAWA, APARTEMEN MAHASISWA</h6>
+                  <ul>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa dilarang
+                      berdua dengan lawan jenis yang bukan muhrimnya dalam
+                      lingkungan Universitas Sriwijaya.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa menjaga
+                      etika dan moral selama berada di Lingkungan Universitas
+                      Sriwijaya.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa berpakaian
+                      sopan selama berada di Lingkungan Universitas Sriwijaya.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa hanya boleh
+                      menerima tamu di ruang lobby pada jam 07.00 s/d 21.00 WIB.
+                    </li>
+                    <li>
+                      Penghuni tidak diperbolehkan menerima tamu di dalam kamar.
+                    </li>
+                    <li>
+                      Penghuni putri dilarang masuk ke blok penghuni putra
+                      demikian juga sebaliknya, Penghuni putra dilarang masuk ke
+                      blok penghuni putri.
+                    </li>
+                    <li>
+                      Tamu keluarga atau teman penghuni dilarang menginap di
+                      kamar penghuni, untuk tamu keluarga yang akan menginap
+                      disediakan penginapan dan di kenakan biaya.
+                    </li>
+                    <li>
+                      Penghuni asrama/rusunawa/apartemen mahasiswa wajib
+                      mematikan kran air, listrik dalam kamar sebelum pergi
+                      meninggalkan ruangan.
+                    </li>
+                    <li>
+                      Kegiatan apapun yang menggunakan sarana asrama/ rusunawa/
+                      apartemen mahasiswa wajib lapor dengan petugas kepala
+                      Asrama.
+                    </li>
+                    <li>
+                      Penghuni wajib berada di asrama/ rusunawa/ apartemen pada
+                      pukul 21.00 WIB dan jika ada kepentingan lain harus
+                      memberikan penjelasan kepada petugas/ keamanan asrama/
+                      rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menjaga ketertiban dan kenyamanan lingkungan asrama/
+                      rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Menjaga dan memelihara kebersihan lingkungan asrama/
+                      rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa wajib
+                      menitipkan kunci kepada kepala asrama pada waktu libur,
+                      atau meninggalkan tempat lebih dari satu hari.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa tidak boleh
+                      menggandakan kunci.
+                    </li>
+                    <li>
+                      Apabila terbukti melanggar akan dikeluarkan dari asrama/
+                      rusunawa/ apartemen mahasiswa dan akan diproses secara
+                      hukum sesuai peraturan yang berlaku.
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>KEAMANAN</h6>
+                  <ul>
+                    <li>
+                      Keamanan barang berharga didalam kamar merupakan tanggung
+                      jawab penghuni asrama/ rusunawa/ apartemen mahasiswa.
+                    </li>
+                    <li>
+                      Pihak Pengelola asrama/ rusunawa/ apartemen mahasiswa
+                      hanya menyediakan lahan parkir untuk kendaraan roda dua/
+                      sepeda motor. Lahan parkir untuk kendaraan roda 4/ mobil
+                      hanya untuk mengakomodir tamu penginapan.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa wajib
+                      parkir kendaraan di tempat yang telah ditentukan.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa diwajibkan
+                      untuk menggunakan kunci ganda untuk keamanan kendaraan
+                      bermotor yang diparkir.
+                    </li>
+                    <li>
+                      Pengelola asrama/ rusunawa/ apartemen tidak bertanggung
+                      jawab atas kehilangan barang-barang milik penghuni.
+                    </li>
+                    <li>
+                      Jam malam yang berlaku di asrama/ rusunawa/ apartemen
+                      mahasiswa jam 21.00 WIB, Apabila penghuni akan atau pulang
+                      terlambat harap mengisi buku laporan di Kepala Asrama.
+                    </li>
+                    <li>
+                      Penghuni asrama/ rusunawa/ apartemen mahasiswa yang
+                      melakukan mabuk, madat, memakai obat bius atau narkotika,
+                      melakukan tindakan asusila, berjudi dalam bentuk apapun
+                      serta berkelahi, dikenakan sanksi yaitu dikeluarkan secara
+                      sepihak oleh pihak pengelola asrama dan akan diproses
+                      secara hukum sesuai peraturan yang berlaku.
+                    </li>
+                    <li>
+                      Tata tertib ini berlaku untuk semua yang bertempat tinggal
+                      di asrama/ rusunawa/ apartemen mahasiswa Universitas
+                      Sriwijaya.
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>SANKSI</h6>
+                  <ul>
+                    <li>
+                      Sanksi akan diberikan kepada penghuni asrama/ rusunawa/
+                      apartemen mahasiswa yang melanggar tata tertib di atas.
+                    </li>
+                    <li>
+                      Sanksi yang diberikan berupa surat teguran, sampai pada
+                      sanksi dikeluarkan secara sepihak oleh pihak pengelola
+                      asrama dan di kenakan hukuman sesuai peraturan yang
+                      berlaku.
+                    </li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>LAIN-LAIN</h6>
+                  <ul>
+                    <li>
+                      Hal-hal yang belum diatur dalam tata tertib
+                      asrama/rusunawa/apartemen mahasiswa akan dituangkan dalam
+                      ketentuan terpisah.
+                    </li>
+                    <li>
+                      Tata tertib ini berlaku sejak ditulis sampai dibuatnya
+                      tata tertib baru.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="faq-item p-0 mt-2">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                  PROTOKOL COVID-19
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse mx-3"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <h6>MENCUCI TANGAN</h6>
+                  <p>
+                    Rutin mencuci tangan hingga bersih adalah salah satu
+                    protokol kesehatan yang cukup efektif untuk mencegah
+                    penularan COVID-19. Untuk hasil yang maksimal, cucilah
+                    tangan setidaknya selama 20 detik beberapa kali sehari,
+                    terutama saat:
+                  </p>
+                  <ul>
+                    <li>Sebelum memasak atau makan.</li>
+                    <li>Setelah menggunakan kamar mandi.</li>
+                    <li>Setelah menutup hidung saat batuk, atau bersin.</li>
+                  </ul>
+                  <p>
+                    Untuk membunuh virus dan kuman-kuman lainnya, gunakan sabun
+                    dan air atau pembersih tangan dengan alkohol setidaknya
+                    dengan kadar 60 persen.
+                  </p>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>MEMAKAI MASKER</h6>
+                  <p>
+                    Pada awal pandemi COVID-19 tahun lalu, Organisasi Kesehatan
+                    Dunia (WHO) mengatakan bahwa penggunaan masker hanya
+                    direkomendasikan untuk orang sakit, bukannya orang sehat.
+                    Namun, virus corona jenis SARS-CoV-2 benar-benar baru,
+                    sehingga protokol kesehatan bisa berubah-ubah seiring
+                    bergulirnya waktu.
+                  </p>
+                  <p>
+                    Beberapa waktu selang kebijakan WHO di atas, WHO akhirnya
+                    mengeluarkan imbauan agar semua orang (baik yang sehat atau
+                    sakit) agar selalu menggunakan masker saat beraktivitas di
+                    luar rumah.
+                  </p>
+                  <p>
+                    Protokol kesehatan virus corona terkait masker pun semakin
+                    digalakkan di beberapa negara. Di Amerika Serikat (AS),
+                    Centers for Disease Control and Prevention (CDC),
+                    memperbarui pedoman terkait penggunaan masker. CDC mengimbau
+                    masyarakat AS harus memakai masker meski berada di dalam
+                    rumah pada kondisi tertentu. Menurut CDC, penggunaan masker
+                    di dalam rumah perlu dilakukan ketika:
+                  </p>
+                  <ul>
+                    <li>Terdapat anggota keluarga yang terinfeksi COVID-19.</li>
+                    <li>
+                      Terdapat anggota keluarga yang berpotensi terkena COVID-19
+                      karena aktivitas di luar rumah.
+                    </li>
+                    <li>Merasa terjangkit atau mengalami gejala COVID-19.</li>
+                    <li>Ruangan sempit.</li>
+                    <li>Tidak bisa menjaga jarak minimal dua meter.</li>
+                  </ul>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>MENJAGA JARAK</h6>
+                  <p>
+                    Protokol kesehatan lainnya yang perlu dipatuhi adalah
+                    menjaga jarak. Protokol kesehatan ini dimuat dalam Keputusan
+                    Menteri Kesehatan RI dalam “Protokol Kesehatan Bagi
+                    Masyarakat di Tempat dan Fasilitas Umum Dalam Rangka
+                    Pencegahan dan Pengendalian COVID-19.”
+                  </p>
+                  <p>
+                    Di sana disebutkan, menjaga jarak minimal 1 meter dengan
+                    orang lain untuk menghindari terkena droplets dari orang
+                    yang bicara, batuk, atau bersin, serta menghindari
+                    kerumunan, keramaian, dan berdesakan. Bila tidak
+                    memungkinkan melakukan jaga jarak, maka dapat dilakukan
+                    berbagai rekayasa administrasi dan teknis lainnya.
+                  </p>
+                  <p>
+                    Rekayasa administrasi dapat berupa pembatasan jumlah orang,
+                    pengaturan jadwal, dan sebagainya.
+                  </p>
+                  <p>
+                    Sedangkan rekayasa teknis antara lain dapat berupa pembuatan
+                    partisi, pengaturan jalur masuk dan keluar, dan lain
+                    sebagainya.
+                  </p>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>MENJAUHI KERUMUNAN</h6>
+                  <p>
+                    Selain tiga hal di atas, menjauhi kerumunan merupakan
+                    protokol kesehatan yang juga harus dilakukan. Menurut
+                    Kementerian Kesehatan RI (Kemenkes), masyarakat diminta
+                    untuk menjauhi kerumunan saat berada di luar rumah. Ingat,
+                    semakin banyak dan sering kamu bertemu orang, maka
+                    kemungkinan terinfeksi virus corona pun semakin tinggi.
+                  </p>
+                  <p>
+                    Oleh sebab itu, hindari tempat keramaian terutama bila
+                    sedang sakit atau berusia di atas 60 tahun (lansia). Menurut
+                    riset lansia dan pengidap penyakit kronis memiliki risiko
+                    yang lebih tinggi terserang virus corona.
+                  </p>
+                </div>
+                <div class="accordion-body pt-0">
+                  <h6>MENGURANGI MOBILITAS</h6>
+                  <p>
+                    Virus corona penyebab COVID-19 bisa berada di mana saja.
+                    Jadi, semakin banyak dirimu menghabiskan waktu di luar
+                    rumah, maka semakin tinggi pula terpapar virus jahat ini.
+                    Oleh sebab itu, bila tidak ada keperluan yang mendesak,
+                    tetaplah berada di rumah.
+                  </p>
+                  <p>
+                    Menurut Kemenkes, meski sehat dan tidak ada gejala penyakit,
+                    belum tentu dirimu pulang ke rumah dengan keadaan yang masih
+                    sama. Pasalnya, virus corona dapat menyebar dan menginfeksi
+                    seseorang dengan cepat.
+                  </p>
+                  <p>
+                    Selain itu diharapkan seluruh masyarakat ikut mendukung
+                    program vaksinasi dengan mengikuti vaksinasi yang ada.
+                    Vaksinasi berfungsi menciptakan imunitas tubuh sehingga
+                    mampu melawan infeksi virus penyebab Covid-19. Dengan
+                    imunitas yang terbentuk, maka seseorang tidak akan jatuh
+                    pada kesakitan yang parah, dan pada gilirannya menurunkan
+                    angka kematian.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Informasi Penting -->
+
+    <!-- Contact -->
+    <section id="contact" class="text-white">
+      <div class="container container-sm pt-5">
+        <div class="row pt-3 contact">
+          <div class="col-md-5 contact-padding">
+            <h5>Informasi</h5>
+            <p>
+              Jika anda memiliki masalah teknis maupun non-teknis terkait dengan
+              Badan Pengelola Usaha Universitas Sriwijaya (BPU UNSRI), anda
+              dapat menghubungi
+              <a
+                href="mailto:bpu@unsri.ac.id"
+                class="contact-info"
+                target="_blank"
+                >kontak</a
+              >
+              aktif BPU UNSRI atau langsung mendatangi
+              <a
+                href="https://www.google.co.id/maps/place/Kantor+Pusat+Administrasi+Universitas+Sriwijaya+Kampus+Palembang/@-2.985714,104.7319234,20.25z/data=!4m5!3m4!1s0x2e3b75ed9c70e2fd:0xf9bb98f388ac9168!8m2!3d-2.9855639!4d104.7320647"
+                class="contact-info"
+                target="_blank"
+                >lokasi
+              </a>
+              kantor BPU UNSRI.
+            </p>
+            <a href="#" class="page-scroll"
+              ><img src="img/logo unsri white.svg" alt="" class="mb-2"
+            /></a>
+          </div>
+          <div class="col-md-3 contact-padding">
+            <h5>Lokasi</h5>
+            <p>
+              <a
+                target="_blank"
+                href="https://www.google.co.id/maps/place/Kantor+Pusat+Administrasi+Universitas+Sriwijaya+Kampus+Palembang/@-2.985714,104.7319234,20.25z/data=!4m5!3m4!1s0x2e3b75ed9c70e2fd:0xf9bb98f388ac9168!8m2!3d-2.9855639!4d104.7320647"
+                >Badan Pengelola Usaha, Kantor Pusat Administrasi Universitas
+                Sriwijaya Kampus Palembang
+              </a>
+            </p>
+            <h5>Kontak</h5>
+            <p>
+              <a target="_blank" href="mailto:bpu@unsri.ac.id"
+                >Email: bpu@unsri.ac.id</a
+              >
+            </p>
+            <div class="d-flex flex-row mb-3">
+              <div class="p-1 align-self-center">
+                <a href="#contact"
+                  ><span
+                    class="iconify"
+                    data-icon="akar-icons:facebook-fill"
+                    style="color: white; font-size: 30px"
+                  ></span
+                ></a>
+              </div>
+              <div class="p-1 align-self-center">
+                <a href="#contact"
+                  ><span
+                    class="iconify"
+                    data-icon="ant-design:twitter-circle-filled"
+                    style="color: white; font-size: 35px"
+                  ></span
+                ></a>
+              </div>
+              <div class="align-self-center">
+                <a href="#contact"
+                  ><span
+                    class="iconify"
+                    data-icon="ant-design:instagram-filled"
+                    style="color: white; font-size: 40px"
+                  ></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 contact-padding">
+            <h5>Link</h5>
+            <p>
+              <a href="https://ristekdikti.go.id/" target="_blank"
+                >Risetdikti</a
+              >
+            </p>
+            <p>
+              <a href="http://simlitabmas.ristekdikti.go.id/" target="_blank"
+                >Simlitabnas</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 contact-padding">
+            <h5>Navigasi</h5>
+            <p><a href="index.html">Beranda</a></p>
+            <p><a href="pengumuman.html">Pengumuman</a></p>
+            <p><a href="layanan.html">Layanan</a></p>
+            <p><a href="tentang.html">Tentang Kami</a></p>
+            <p><a href="faq.html">FAQ</a></p>
+            <p><a href="akun.html">Akun</a></p>
+            <p>
+              <a href="#logout" data-bs-toggle="modal" data-bs-target="#logout"
+                >Logout</a
+              >
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex flex-row bd-highlight pb-3 pt-1 footer">
+          <img src="img/Copyright.svg" alt="" class="pe-2" />
+          <p>Copyright 2022 - BPU Universitas Sriwijaya</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+
+    <!-- Icons -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

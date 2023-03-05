@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" href="img/Logo Unsri.png" type="image/x-icon" />
+    <title>Beranda | Badan Pengelola Usaha Universitas Sriwijaya</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand page-scroll" href="#">
+          <img src="img/logo unsri.svg" alt="" width="225" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pengumuman.html">Pengumuman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="layanan.html">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#login" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Pengumuman -->
+    <section id="pengumuman" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-pengumuman active" data-bs-interval="10000">
+          <img src="img/Pengumuman 1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption pengumuman-caption text-start">
+            <h4>Hasil Tes Online Rekrutmen Pendamping Petugas Teknis Peningkatan Produksi Peternakan</h4>
+            <p>
+              Bagi Peserta yang mengikuti Tes Online Rekrutmen Pendamping Petugas Teknis Peningkatan Produksi Peternakan (PPTPPP) Tahun 2022. Hasil tes Online dapat dilihat
+              <a target="_blank" href="https://bpu.unsri.ac.id/peternakan/peserta/">disini</a>
+              atau melalui dashboard masing-masing peserta. Pengumuman bersifat mutlak dan Final, BPU tidak menerima surat-menyurat dan berkomunikasi dalam apapun terkait dengan Pengumuman ini.
+            </p>
+            <div class="row">
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1">
+                  <i class="bi bi-clock pe-2"></i>
+                  11 Juni 2022
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1 pengumuman-info">
+                  <i class="bi bi-link-45deg pe-2"></i>
+                  <a target="_blank" href="https://bpu.unsri.ac.id/peternakan/peserta/">Hasil Tes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-pengumuman" data-bs-interval="10000">
+          <img src="img/Pengumuman 2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption pengumuman-caption text-start">
+            <h4>Peringatan Ketiga Pelunasan Iuran</h4>
+            <p>
+              Dihimbaukan bagi mahasiswa dan mahasiswi yang belum melunasi iuran pemondokan sampai bulan Februari 2020, kami harapkan agar segera melunasinya sebelum tanggal 10 Februari 2020. Jika tidak membayar perpanjangan sewa sampai
+              dengan batas waktu yang telah ditentukan maka dianggap mengundurkan diri dari pemondokkan dan dipersilahkan meninggalkan pemondokkan dengan melunasi sisa tunggakan. Demikianlah atas kerja samanya diucapkan terima kasih.
+            </p>
+            <div class="row">
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1">
+                  <i class="bi bi-clock pe-2"></i>
+                  21 Januari 2020
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1 pengumuman-info">
+                  <i class="bi bi-link-45deg pe-2"></i>
+                  <a href="https://bpu.unsri.ac.id/uploads/artikel/attach/img20200121_11231975.pdf" target="_blank">Unduh Lampiran</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-pengumuman" data-bs-interval="10000">
+          <img src="img/Pengumuman 3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption pengumuman-caption text-start">
+            <h4>Pengisian Angket Monitoring</h4>
+            <p>
+              Kami sebagai Pengelola Kerjasama membutuhkan umpan balik dari mitra mengenai implementasi kegiatan kerja sama yang telah maupun sedang dilaksanakan. Badan Pengelola Usaha Universitas Sriwijaya memohon kesediaaan saudara untuk
+              mengisi angket monitoring dan evaluasi melalui <a target="_blank" href="http://bit.ly/SurveyBPU">link</a> yang dilampirkan dibawah ini. Data tersebut nantinya akan kami gunakan untuk memperbaiki pelayanan kami kepada mitra
+              kerjasama Universitas Sriwijaya.
+            </p>
+            <div class="row">
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1">
+                  <i class="bi bi-clock pe-2"></i>
+                  6 Desember 2019
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1 pengumuman-info">
+                  <i class="bi bi-link-45deg pe-2"></i>
+                  <a target="_blank" href="http://bit.ly/SurveyBPU">Link Survei BPU</a>
+                </div>
+              </div>
+              <div class="col-md-auto">
+                <div class="d-flex flex-row ps-1 pengumuman-info">
+                  <i class="bi bi-link-45deg pe-2"></i>
+                  <a target="_blank" href="https://drive.google.com/open?id=1mQXugVLQqg9yOOW3RSNtsFi_d1VKRgPE">Unduh Lampiran Surat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pengumuman" data-bs-slide="prev">
+        <span class="iconify" aria-hidden="true" data-icon="eva:arrow-ios-back-fill" style="color: white; font-size: 50px"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pengumuman" data-bs-slide="next">
+        <span class="iconify" aria-hidden="true" data-icon="eva:arrow-ios-forward-fill" style="color: white; font-size: 50px"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <!-- End Pengumuman -->
+
+    <!-- Layanan -->
+    <section class="container container-sm" id="layanan">
+      <div class="row text-center">
+        <div class="col-md px-3">
+          <div class="card layanan-card text-white">
+            <img src="img/Layanan 1.jpg" class="card-img layanan-img" alt="..." />
+            <div class="card-img-overlay layanan-img-overlay mx-3">
+              <div class="card-img-text layanan-text">
+                <h5 class="card-title">Pusat Pendidikan dan Pelatihan</h5>
+                <div class="title-line mx-auto"></div>
+                <p class="card-text">Tingkatkan Kemampuan Anda Bersama Kami</p>
+              </div>
+              <a href="#" type="submit" class="btn btn-light fw-bold lh-lg rounded-pill">PILIH LAYANAN</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md px-3">
+          <div class="card layanan-card text-white">
+            <img src="img/Layanan 2.jpg" class="card-img layanan-img" alt="..." />
+            <div class="card-img-overlay layanan-img-overlay mx-3">
+              <div class="card-img-text layanan-text">
+                <h5 class="card-title">Pusat Pengujian dan Kerjasama</h5>
+                <div class="title-line mx-auto"></div>
+                <p class="card-text">Tingkatkan Kualitas Produk Anda Bersama Kami</p>
+              </div>
+              <a href="#" type="submit" class="btn btn-light fw-bold lh-lg rounded-pill">PILIH LAYANAN</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md px-3">
+          <div class="card layanan-card text-white">
+            <img src="img/Layanan 3.jpg" class="card-img layanan-img" alt="..." />
+            <div class="card-img-overlay layanan-img-overlay mx-3">
+              <div class="card-img-text layanan-text">
+                <h5 class="card-title">Pusat Komersialisasi dan Produksi</h5>
+                <div class="title-line mx-auto"></div>
+                <p class="card-text">Rencanakan Produksi dan Bisnis Anda Bersama Kami</p>
+              </div>
+              <a href="#" type="submit" class="btn btn-light fw-bold lh-lg rounded-pill">PILIH LAYANAN</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md px-3">
+          <div class="card layanan-card text-white">
+            <img src="img/Layanan 4.jpg" class="card-img layanan-img" alt="..." />
+            <div class="card-img-overlay layanan-img-overlay mx-3">
+              <div class="card-img-text layanan-text">
+                <h5 class="card-title">Pusat Penggunaan Aset (Sewa)</h5>
+                <div class="title-line mx-auto"></div>
+                <p class="card-text">Layanan Sewa Asrama Mahasiswa Universitas Sriwijaya</p>
+              </div>
+              <a href="layanan-aset.html" type="submit" class="btn btn-light fw-bold lh-lg rounded-pill">PILIH LAYANAN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Layanan -->
+
+    <!-- About -->
+    <section id="about" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#about" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#about" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#about" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/About 1.png" class="about-img d-block w-100" alt="..." />
+          <div class="row carousel-caption about-caption">
+            <div class="col-md-4">
+              <h5>BADAN PENGELOLA USAHA</h5>
+            </div>
+            <div class="col-md-8 mt-1">
+              <p>
+                Universitas Sriwijaya saat ini telah menerapkan pengelolaan keuangan sebagai PTN Badan Layanan Umum (PK-BLU). Universitas Sriwijaya ditetapkan sebagai Instansi Pemerintah yang menerapkan Pengelolaan Keuangan Badan Layanan
+                Umum (PK-BLU) melalui Keputusan Menteri Keuangan Republik Indonesia Nomor: 190/KMK.05/2009 tanggal 26 Mei 2009.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="img/About 2.png" class="about-img d-block w-100" alt="..." />
+          <div class="row carousel-caption about-caption">
+            <div class="col-md-4">
+              <h5>BADAN PENGELOLA USAHA</h5>
+            </div>
+            <div class="col-md-8">
+              <p>
+                Instansi Pemerintah yang Menerapkan Pengelolaan Keuangan Badan Layanan Umum (PK-BLU) bertujuan untuk meningkatkan pelayanan kepada masyarakat dalam rangka memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa dengan
+                memberikan fleksibilitas dalam pengelolaan keuangan berdasarkan prinsip ekonomi dan produktivitas, dan penerapan praktik bisnis yang sehat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="img/About 3.png" class="about-img d-block w-100" alt="..." />
+          <div class="row carousel-caption about-caption-end">
+            <div class="col-md-4">
+              <img src="img/About 3 Image.png" alt="" class="mx-auto d-block" />
+            </div>
+            <div class="col-md-8">
+              <p>
+                Badan Pengelola Usaha (BPU) Universitas Sriwijaya dibentuk melalui Peraturan Rektor Universitas Sriwijaya No. 05 Tahun 2016, tanggal 18 Oktober 2016, direvisi Peraturan Rektor Universitas Sriwijaya No. 10 Tahun 2018, tanggal
+                26 Desember 2018, tentang Penyelenggaraan Badan Pengelola Usaha Universitas Sriwijaya. Pengangkatan Personalia Badan Pengelola Usaha Universitas Sriwijaya melalui Keputusan Rektor Universitas Sriwijaya Nomor:
+                0702/UN9/SK.BUK.KP/2018, tanggal 31 Desember 2018.
+              </p>
+              <p>Prof. Dr. Zulkifli Dahlan, M. Si., DEA.</p>
+              <p>Direktur Utama BPU Universitas Sriwijaya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#about" data-bs-slide="prev">
+        <span class="iconify" aria-hidden="true" data-icon="eva:arrow-ios-back-fill" style="color: white; font-size: 50px"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#about" data-bs-slide="next">
+        <span class="iconify" aria-hidden="true" data-icon="eva:arrow-ios-forward-fill" style="color: white; font-size: 50px"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <!-- End About -->
+
+    <!-- Visi Misi -->
+    <section class="container container-sm" id="visiMisi">
+      <div class="clearfix">
+        <img src="img/Visi Misi.svg" class="col-md-5 float-md-end my-4" alt="..." />
+        <div class="d-flex flex-row">
+          <img src="img/Arrow Icon.svg" alt="" width="30" />
+          <div class="px-2">
+            <h4>Visi</h4>
+          </div>
+        </div>
+        <p>Menjadi Induk Unit Usaha Inovatif, yang Profesional dan Berintegritas</p>
+        <div class="d-flex flex-row">
+          <img src="img/Arrow Icon.svg" alt="" width="30" />
+          <div class="px-2">
+            <h4>Misi</h4>
+          </div>
+        </div>
+        <p>
+          Mewujudkan tata kelola yang kredibel, transparan, akuntabel, bertanggung jawab dan adil di seluruh unit usaha. Mengembangkan unit usaha berbasis teknologi, inovasi baik akademik dan Non akademik. Memberikan pelayanan yang prima
+          bagi civitas akademika dan tenaga kependidikan Unsri, Masyarakat dan Industri. Mengembangkan dan memfasilitasi Kegiatan Kerjasama dengan pihak ketiga.
+        </p>
+      </div>
+    </section>
+    <!-- End Visi Misi -->
+
+    <!-- Organisasi -->
+    <section class="container container-sm" id="organisasi">
+      <div class="row">
+        <div class="col">
+          <img src="img/Organisasi.png" class="organisasi-img mx-auto d-block" alt="" />
+        </div>
+        <div class="col">
+          <div class="d-flex flex-row">
+            <img src="img/Arrow Icon.svg" alt="" width="30" />
+            <div class="px-2">
+              <h4>Organisasi</h4>
+            </div>
+          </div>
+          <p>Berdasarkan Peraturan Rektor Universitas Sriwijaya Nomor: 10 Tahun 2018, tentang Penyelenggaraan Badan Pengelola Usaha (BPU) Universitas Sriwijaya pasal 5, Susunan organisasi BPU Universitas Sriwijaya terdiri dari:</p>
+          <ul>
+            <li>Direktur</li>
+            <li>Sekretaris</li>
+            <li>Manajer Unit Usaha</li>
+            <li>Kepala Unit Usaha</li>
+            <li>Kepala Tata Usaha</li>
+            <li>Pengelola Keuangan/Bendahara Pembantu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End Organisasi -->
+
+    <!-- Kepakaran -->
+    <section class="text-white text-center" id="kepakaran">
+      <img src="img/Kepakaran.jpg" class="card-img rounded-0" alt="..." />
+      <div class="card-img-overlay mx-auto">
+        <h4 class="pb-2">Kepakaran</h4>
+        <p class="card-text">
+          Universitas Sriwijaya memiliki kepakaran sumber daya manusia yang handal dan komitmen terhadap lembaga, yang dapat digunakan oleh pihak eksternal sebagai Tenaga Ahli sesuai bidangnya masing-masing. Kepakaran Sumber Daya Manusia
+          khususnya tenaga pendidik selain untuk menghasilkan lulusan yang unggul, juga dapat dimanfaatkan bersama pemerintah, dan swasta
+        </p>
+      </div>
+    </section>
+    <!-- End Kepakaran -->
+
+    <!-- FAQ -->
+    <section id="faq" class="container container-sm">
+      <div class="text-center mx-auto pb-2">
+        <h4>Frequently Ask Questions</h4>
+      </div>
+      <div class="accordion mx-auto pb-1" id="accordionExample">
+        <div class="faq-item p-0 mb-2">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Apakah ada persyaratan khusus saat melakukan pendaftaran akun?</button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse mx-3 show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Syaratnya adalah anda merupakan mahasiswa Universitas Sriwijaya dan berstatus aktif serta harus mengisi data diri anda dengan benar pada form pendaftaran yang telah disiapkan. Data isian harus benar dan valid karena akan
+              berguna ketika melakukan validasi nantinya.
+            </div>
+          </div>
+        </div>
+        <div class="faq-item p-0 mb-2">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              Saya salah memasukan identitas diri saat melakukan pendaftaran akun, bagaimana cara merubahnya?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse mx-3" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Anda bisa merubahnya pada menu account yang ada di navbar lalu pilih profil, kemudian anda akan di arahkan kehalaman baru, setelah itu pilih tab profile.</div>
+          </div>
+        </div>
+        <div class="faq-item p-0 mb-2">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Bagaimana cara saya merubah informasi akademik?</button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse mx-3" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Informasi akademik dapat dirubah dengan menghubungi operator asrama mahasiswa Badan Pengelola Usaha Universitas Sriwijaya (BPU UNSRI).</div>
+          </div>
+        </div>
+        <div class="faq-item p-0 mb-2">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              Saat melakukan pengajuan penyewaan asrama, saya salah memilih lantai dan tipe asrama.
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse mx-3" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Anda tidak dapat memilih secara langsung tipe, lantai, dan kamar asrama, karena semunya akan ditentukan saat melakukan validasi. Di website ini hanya untuk melakukan pendataan saja.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End FAQ -->
+
+    <!-- Contact -->
+    <section id="contact" class="text-white">
+      <div class="container container-sm pt-5">
+        <div class="row pt-3 contact">
+          <div class="col-md-5 contact-padding">
+            <h5>Informasi</h5>
+            <p>
+              Jika anda memiliki masalah teknis maupun non-teknis terkait dengan Badan Pengelola Usaha Universitas Sriwijaya (BPU UNSRI), anda dapat menghubungi
+              <a href="mailto:bpu@unsri.ac.id" class="contact-info text-decoration-underline" target="_blank">kontak</a> aktif BPU UNSRI atau langsung mendatangi
+              <a
+                href="https://www.google.co.id/maps/place/Kantor+Pusat+Administrasi+Universitas+Sriwijaya+Kampus+Palembang/@-2.985714,104.7319234,20.25z/data=!4m5!3m4!1s0x2e3b75ed9c70e2fd:0xf9bb98f388ac9168!8m2!3d-2.9855639!4d104.7320647"
+                class="contact-info text-decoration-underline"
+                target="_blank"
+                >lokasi</a
+              >
+              kantor BPU UNSRI.
+            </p>
+            <a href="#" class="page-scroll"><img src="img/logo unsri white.svg" alt="" class="mb-2" /></a>
+          </div>
+          <div class="col-md-3 contact-padding">
+            <h5>Lokasi</h5>
+            <p>
+              <a
+                target="_blank"
+                href="https://www.google.co.id/maps/place/Kantor+Pusat+Administrasi+Universitas+Sriwijaya+Kampus+Palembang/@-2.985714,104.7319234,20.25z/data=!4m5!3m4!1s0x2e3b75ed9c70e2fd:0xf9bb98f388ac9168!8m2!3d-2.9855639!4d104.7320647"
+                >Badan Pengelola Usaha, Kantor Pusat Administrasi Universitas Sriwijaya Kampus Palembang
+              </a>
+            </p>
+            <h5>Kontak</h5>
+            <p>
+              <a target="_blank" href="mailto:bpu@unsri.ac.id">Email: bpu@unsri.ac.id</a>
+            </p>
+            <div class="d-flex flex-row mb-3">
+              <div class="p-1 align-self-center">
+                <a href="#contact"><span class="iconify" data-icon="akar-icons:facebook-fill" style="color: white; font-size: 30px"></span></a>
+              </div>
+              <div class="p-1 align-self-center">
+                <a href="#contact"><span class="iconify" data-icon="ant-design:twitter-circle-filled" style="color: white; font-size: 35px"></span></a>
+              </div>
+              <div class="align-self-center">
+                <a href="#contact"><span class="iconify" data-icon="ant-design:instagram-filled" style="color: white; font-size: 40px"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 contact-padding">
+            <h5>Link</h5>
+            <p><a href="https://ristekdikti.go.id/" target="_blank">Risetdikti</a></p>
+            <p><a href="http://simlitabmas.ristekdikti.go.id/" target="_blank">Simlitabnas</a></p>
+          </div>
+          <div class="col-md-2 contact-padding contact-nav">
+            <h5>Navigasi</h5>
+            <p><a href="index.html">Beranda</a></p>
+            <p><a href="pengumuman.html">Pengumuman</a></p>
+            <p><a href="layanan.html">Layanan</a></p>
+            <p><a href="tentang.html">Tentang Kami</a></p>
+            <p><a href="faq.html">FAQ</a></p>
+            <p>
+              <a data-bs-toggle="modal" data-bs-target="#login">Login</a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex flex-row bd-highlight pb-3 pt-1 footer">
+          <img src="img/Copyright.svg" alt="" class="pe-2" />
+          <p>Copyright 2022 - BPU Universitas Sriwijaya</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+
+    <!-- Icons -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

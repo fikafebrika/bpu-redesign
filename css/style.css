@@ -1,0 +1,838 @@
+/* Custom CSS Style */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  scroll-behavior: smooth;
+}
+
+body,
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600px;
+}
+
+h6 {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 21px;
+  line-height: 27px;
+}
+
+h4 {
+  font-size: 23px;
+  line-height: 29px;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 31px;
+}
+
+h2 {
+  font-size: 27px;
+  line-height: 33px;
+}
+
+h1 {
+  font-size: 29px;
+  line-height: 35px;
+}
+
+.container-sm {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-warning {
+  color: rgb(255, 94, 31) !important;
+}
+
+/* Navbar */
+.navbar {
+  opacity: 0.95;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-item {
+  margin: 0 0.4rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+/* End Navbar */
+
+/* Login Register */
+.modal-body form div .form-control:focus,
+.btn-close:focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-close {
+  z-index: 1;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+.modal-header-title {
+  display: block;
+  margin-top: -40px;
+}
+
+.modal-body .form-label {
+  font-size: 12px;
+}
+
+.modal-header-title p span,
+.form-check-label {
+  font-size: 14px;
+  text-decoration-line: underline;
+  color: #007aff;
+}
+
+.modal-button {
+  background: rgb(255, 94, 31);
+  box-shadow: 0px 8px 10px rgba(255, 94, 31, 0.32);
+  border-radius: 40px;
+}
+
+.modal-button:hover {
+  background: rgb(255, 72, 0);
+}
+
+.modal-button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(255 94 31 / 50%);
+}
+/* End of Login Register */
+
+/* HALAMAN BERANDA CSS STYLE */
+/* Pengumuman */
+.carousel-pengumuman img {
+  object-fit: cover;
+  object-position: 0 70%;
+  max-width: 100%;
+  height: 525px;
+  filter: brightness(0.75);
+}
+
+.pengumuman-caption {
+  top: 20%;
+  left: 10%;
+  text-shadow: 1px 2px 2px black;
+}
+
+.pengumuman-caption p {
+  letter-spacing: 0.03em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.pengumuman-caption p a {
+  font-style: italic;
+  font-weight: 500;
+  color: white;
+}
+
+.pengumuman-caption div {
+  margin-top: -2.5px;
+}
+
+.pengumuman-caption div div a {
+  color: white;
+}
+
+.pengumuman-info {
+  font-weight: 500;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+/* End Pengumuman */
+
+/* Layanan */
+#layanan {
+  margin-top: -175px;
+}
+
+.layanan-card {
+  height: 336px;
+  border: 3px solid;
+  border-radius: 20px;
+  text-shadow: 1px 2px 2px black;
+}
+
+.layanan-img {
+  object-fit: cover;
+  object-position: center;
+  min-height: 330px;
+  border-radius: 16.5px;
+  filter: brightness(0.5);
+}
+
+.layanan-img-overlay {
+  margin-top: 10%;
+}
+
+.card-img-overlay a {
+  font-size: 14px;
+  padding: 0.5rem 1.5rem;
+  text-shadow: none;
+}
+
+.card-img-overlay a:hover {
+  opacity: 0.75 !important;
+}
+
+.layanan-text {
+  margin-left: -10px;
+  height: 200px;
+  min-width: 200px;
+}
+
+.layanan-text h5 {
+  font-weight: 500;
+}
+
+.layanan-text p {
+  line-height: 21px;
+}
+
+.title-line {
+  margin: 10% 0 10% 0;
+  width: 75%;
+  border-bottom: 1px solid;
+  box-shadow: 1px 2px 2px black;
+}
+/* End Layanan */
+
+#about,
+#visiMisi,
+#organisasi,
+#kepakaran,
+#faq,
+#contact {
+  margin-top: 75px;
+}
+
+/* About */
+.about-img {
+  object-fit: cover;
+  filter: brightness(0.25);
+}
+
+.about-caption {
+  top: 32%;
+  text-align: start;
+}
+
+.about-caption-end {
+  top: 25%;
+  text-align: start;
+}
+
+.about-caption div h5 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-shadow: 4px 4px 10px #000000;
+}
+
+.about-caption div p,
+.about-caption-end div p {
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.about-caption-end div p:nth-child(2) {
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.about-caption-end div p:nth-child(3) {
+  margin-top: -20px;
+  font-size: 13px;
+}
+/* End About */
+
+#visiMisi,
+#organisasi {
+  color: black;
+}
+
+#visiMisi p,
+#organisasi p {
+  margin-left: 38.5px;
+  max-width: 550px;
+}
+
+/* Visi Misi */
+#visiMisi .flex-row div,
+#organisasi .flex-row div {
+  margin-top: 10px;
+}
+
+#visiMisi h4,
+#organisasi h4 {
+  font-weight: bolder;
+}
+
+#visiMisi img {
+  max-width: 400px;
+}
+/* End Visi Misi */
+
+/* Organisasi */
+.organisasi-img {
+  max-width: 325px;
+}
+
+#organisasi ul {
+  margin: -15px 30px;
+}
+
+#organisasi ul li {
+  margin-bottom: 2.5px;
+}
+/* End Organisasi */
+
+#kepakaran,
+#header {
+  position: relative;
+}
+
+/* Kepakaran */
+#kepakaran img {
+  max-height: 400px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+#kepakaran div {
+  top: 27.5%;
+  max-width: 900px;
+  text-shadow: 1px 2px 2px black;
+}
+/* End Kepakaran */
+
+/* FAQ */
+#faq div {
+  max-width: 900px;
+}
+
+#faq div h4 {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.faq-item {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 500;
+}
+
+.accordion-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+
+.accordion-button::after {
+  background: url("https://api.iconify.design/akar-icons/circle-plus-fill.svg?color=%23303030")
+    no-repeat center center / contain;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  border-color: white;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.accordion-button:focus {
+  color: black;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background: url("https://api.iconify.design/akar-icons/circle-minus-fill.svg?color=black")
+    no-repeat center center / contain;
+}
+
+.accordion-collapse {
+  border-top: 2px solid rgba(0, 0, 0, 0.25);
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+}
+
+.accordion-body {
+  margin: 0px -15px;
+}
+/* End FAQ */
+
+/* Contact */
+#contact {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.contact h5 {
+  font-size: 18px;
+}
+
+.contact p {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#contact hr {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact-info {
+  color: white !important;
+  font-weight: 500;
+}
+
+.contact-info:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+#contact a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#contact a:hover {
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+/* End Contact */
+/* END HALAMAN BERANDA CSS STYLE */
+
+/* HALAMAN LAYANAN CSS STYLE */
+#header img {
+  filter: brightness(0.9);
+  object-fit: cover;
+}
+
+#header div {
+  top: 52.5%;
+  max-width: 950px;
+  text-shadow: 1px 2px 2px black;
+}
+
+.layanan-page {
+  margin-top: 75px !important;
+}
+
+.layanan-page div div .layanan-card {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+}
+/* END HALAMAN LAYANAN CSS STYLE */
+
+/* HALAMAN LAYANAN ASET CSS STYLE */
+#belumLogin a:nth-child(2):hover,
+#logout a:nth-child(2):hover,
+#asetPemesanan a:nth-child(2):hover {
+  color: rgb(255, 72, 0) !important;
+  font-weight: 500;
+}
+
+#aset-deskripsi .card,
+#aset-asrama .card,
+#informasi-penting .card,
+#aset-pemesanan .card {
+  border: none;
+  border-radius: 20px;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
+}
+
+#aset-asrama img {
+  border-radius: 20px 0.25rem 0.25rem 20px;
+  min-height: 335px;
+  object-fit: cover;
+}
+
+#aset-asrama .flex-row-reverse img {
+  border-radius: 0.25rem 20px 20px 0.25rem;
+}
+
+#aset-asrama .text-spacing {
+  margin-bottom: 0.5rem;
+}
+
+#aset-asrama hr {
+  margin-top: 0.5rem;
+  padding: 1px;
+  border-radius: 100px;
+}
+
+.aset-detail p {
+  margin-bottom: 0.75rem;
+  line-height: 18px;
+}
+
+.btn-pilih {
+  opacity: 0.9;
+  font-size: 14px;
+  padding: 0.5rem 1.25rem;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.btn-pilih:hover {
+  opacity: 1 !important;
+}
+
+.asrama-btn {
+  display: none !important;
+}
+
+#informasi-penting ul {
+  margin: auto auto 0px -10px;
+}
+
+#informasi-penting p {
+  margin: 5px auto;
+}
+/* END HALAMAN LAYANAN ASET CSS STYLE */
+
+/* HALAMAN ASET APARTEMEN CSS STYLE */
+.asrama-img {
+  filter: none !important;
+}
+/* END HALAMAN ASET APARTEMEN CSS STYLE */
+
+@media not screen and (max-width: 992px) {
+  .nav-link.active {
+    content: "";
+    display: block;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.75);
+    margin-right: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 992px) {
+  body,
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600px;
+  }
+
+  h6 {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  h5 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  h4 {
+    font-size: 21px;
+    line-height: 27px;
+  }
+
+  h3 {
+    font-size: 23px;
+    line-height: 29px;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 31px;
+  }
+
+  h1 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  .nav-link {
+    padding-bottom: 0.25rem;
+  }
+
+  /* HALAMAN BERANDA CSS STYLE */
+  /* Pengumuman */
+  .carousel-pengumuman img {
+    height: 600px;
+  }
+
+  .pengumuman-caption {
+    top: 16%;
+    left: 15%;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .pengumuman-caption h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .pengumuman-caption p {
+    margin-top: -2.5px;
+    margin-bottom: 12.5px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .pengumuman-caption div {
+    margin-bottom: 2.5px;
+  }
+
+  .pengumuman-caption div div a {
+    color: white;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15%;
+  }
+  /* End Pengumuman */
+
+  #layanan,
+  #about,
+  #visiMisi,
+  #organisasi,
+  #kepakaran,
+  #faq,
+  #contact {
+    margin-top: 50px;
+  }
+
+  /* Layanan */
+  #layanan {
+    max-width: 300px;
+  }
+
+  .layanan-card {
+    margin: 0.75rem 0;
+    height: 311px;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+  }
+
+  .layanan-img {
+    min-height: 305px;
+  }
+
+  .card-img-overlay a {
+    font-size: 12px;
+    padding: 0.4rem 1.4rem;
+  }
+
+  .layanan-text {
+    margin-left: -5px;
+    height: 175px;
+  }
+  /* End Layanan */
+
+  /* About */
+  .about-img {
+    height: 575px;
+  }
+
+  .about-caption,
+  .about-caption-end {
+    top: 5%;
+    text-align: center;
+  }
+
+  .about-caption div h5 {
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .about-caption div p {
+    margin-top: -35px;
+    font-size: 14px;
+  }
+
+  .about-caption-end div img {
+    margin-top: -10px;
+    width: 100px;
+    padding-bottom: 20px;
+  }
+
+  .about-caption-end div p,
+  .about-caption-end div p:nth-child(2) {
+    margin-top: -10px;
+    font-size: 12px;
+  }
+
+  .about-caption-end div p:nth-child(3) {
+    margin-top: -20px;
+    font-size: 10px;
+  }
+  /* End About */
+
+  #visiMisi img,
+  .organisasi-img {
+    max-width: 325px;
+  }
+
+  .clearfix div div h5,
+  #organisasi div div h5 {
+    font-weight: bolder;
+  }
+
+  /* Organisasi */
+  #organisasi div div ul {
+    margin-bottom: 1rem;
+  }
+
+  #organisasi div div ul li {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  /* End Organisasi */
+
+  /* Kepakaran */
+  #kepakaran img {
+    min-height: 400px;
+  }
+
+  #kepakaran div {
+    top: 12.5%;
+    max-width: 325px;
+  }
+
+  #kepakaran div h2 {
+    font-size: 21px;
+  }
+
+  #kepakaran div p {
+    font-size: 14px;
+  }
+  /* End Kepakaran */
+
+  /* FAQ */
+  .accordion-button {
+    font-size: 14px !important;
+  }
+  /* End FAQ */
+
+  /* Contact */
+  .contact-padding {
+    padding-bottom: 1rem;
+  }
+  /* End Contact */
+  /* END HALAMAN BERANDA CSS STYLE */
+
+  /* HALAMAN LAYANAN CSS STYLE */
+  #header img {
+    height: 250px;
+  }
+
+  .layanan-page {
+    margin-top: 50px !important;
+  }
+  /* END HALAMAN LAYANAN CSS STYLE */
+
+  /* HALAMAN LAYANAN ASET CSS STYLE */
+  .layanan-aset div {
+    top: 46% !important;
+  }
+
+  #aset-deskripsi .card,
+  #aset-asrama .card,
+  #informasi-penting .card,
+  #aset-pemesanan .card {
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+  }
+
+  #aset-asrama img,
+  #aset-asrama .flex-row-reverse img {
+    border-radius: 20px 20px 0.25rem 0.25rem;
+    min-height: 250px;
+  }
+
+  #aset-asrama .text-spacing {
+    margin-bottom: 0.25rem;
+  }
+
+  .aset-detail .card-title {
+    padding-top: 0rem !important;
+  }
+
+  .aset-detail p {
+    margin-bottom: 0.5rem;
+  }
+
+  .aset-price {
+    margin-left: -30px !important;
+  }
+
+  .aset-price div {
+    display: none;
+  }
+
+  .aset-price p:nth-child(2) {
+    margin-bottom: 0rem;
+  }
+
+  .asrama-btn {
+    display: block !important;
+  }
+
+  .btn-pilih {
+    font-size: 12px !important;
+    padding: 7.5px;
+  }
+
+  #informasi-penting ul {
+    margin: auto auto 0px -17.5px;
+  }
+  /* END HALAMAN LAYANAN ASET CSS STYLE */
+
+  /* HALAMAN ASET APARTEMEN CSS STYLE */
+  #aset-asrama .border-end {
+    border: none !important;
+  }
+}
+/* END MOBILE VIEW */
